@@ -35,7 +35,9 @@
             this.temasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevosTemasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verVideoTemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mst.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // mst
@@ -63,13 +65,13 @@
             // nuevoCantToolStripMenuItem
             // 
             this.nuevoCantToolStripMenuItem.Name = "nuevoCantToolStripMenuItem";
-            this.nuevoCantToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoCantToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.nuevoCantToolStripMenuItem.Text = "Nuevo Cantante...";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.salirToolStripMenuItem.Text = "Salir...";
             // 
             // temasToolStripMenuItem
@@ -84,14 +86,23 @@
             // nuevosTemasToolStripMenuItem
             // 
             this.nuevosTemasToolStripMenuItem.Name = "nuevosTemasToolStripMenuItem";
-            this.nuevosTemasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevosTemasToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.nuevosTemasToolStripMenuItem.Text = "Nuevos temas";
             // 
             // verVideoTemaToolStripMenuItem
             // 
             this.verVideoTemaToolStripMenuItem.Name = "verVideoTemaToolStripMenuItem";
-            this.verVideoTemaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verVideoTemaToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.verVideoTemaToolStripMenuItem.Text = "Ver Video Tema";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::pryAcademiaDeMúsicaRomero.Properties.Resources.images;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 72);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(320, 160);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // fmrAcademiaMúsica
             // 
@@ -99,12 +110,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(395, 268);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.mst);
             this.MainMenuStrip = this.mst;
             this.Name = "fmrAcademiaMúsica";
             this.Text = "Academia De Música";
             this.mst.ResumeLayout(false);
             this.mst.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,6 +132,7 @@
         private System.Windows.Forms.ToolStripMenuItem temasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevosTemasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verVideoTemaToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

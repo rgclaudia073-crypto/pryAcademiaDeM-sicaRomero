@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace pryAcademiaDeMúsicaRomero
 {
-    public partial class frmNuevoCantante : Form
+    public partial class frmNuevoTema : Form
     {
-        public frmNuevoCantante()
+        public frmNuevoTema()
         {
             InitializeComponent();
-        }
-
-        private void frmNuevoCantante_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
